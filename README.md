@@ -8,7 +8,7 @@ BrainTone is invite-only. Whoever runs it sends you an install command with your
 
 ```bash
 claude plugin marketplace add jspiniakdev/braintone-mod
-claude plugin install braintone@braintone --config invite=inv_…
+claude plugin install braintone@braintone --config invite=inv_… --config server_url=https://api.braintone.ai
 ```
 
 Mods are early access in Claude Code, so start it with them turned on, then type `/braintone`:

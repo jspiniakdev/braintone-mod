@@ -1,7 +1,7 @@
 {
   "name": "braintone",
   "displayName": "BrainTone",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A short brain workout you can open with /braintone while Claude works. Esc closes it.",
   "author": {
     "name": "Juan"
