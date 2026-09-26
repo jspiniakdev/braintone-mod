@@ -1,0 +1,8 @@
+{
+  "name": "braintone",
+  "description": "BrainTone: a short brain workout you open with /braintone while Claude works",
+  "owner": { "name": "Juan" },
+  "plugins": [
+    { "name": "braintone", "source": "./", "description": "BrainTone: quick questions while Claude works (/braintone)" }
+  ]
+}

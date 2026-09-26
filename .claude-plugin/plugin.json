@@ -1,0 +1,24 @@
+{
+  "name": "braintone",
+  "displayName": "BrainTone",
+  "version": "0.2.0",
+  "description": "A short brain workout you can open with /braintone while Claude works. Esc closes it.",
+  "author": {
+    "name": "Juan"
+  },
+  "userConfig": {
+    "server_url": {
+      "type": "string",
+      "title": "BrainTone server URL",
+      "description": "The BrainTone server the Mod talks to over its /v1 API. http://localhost:8787 for a local braintone-server/.",
+      "default": "https://api.braintone.ai"
+    },
+    "invite": {
+      "type": "string",
+      "title": "BrainTone invite",
+      "description": "The invite code from your install command. The Mod swaps it for its own token the first time you open /braintone. Leave empty for a local server without invites.",
+      "default": "",
+      "sensitive": true
+    }
+  }
+}

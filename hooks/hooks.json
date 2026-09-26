@@ -1,0 +1,4 @@
+{
+  "description": "BrainTone: a /braintone pane with short questions while Claude works.",
+  "modules": ["./register.tsx"]
+}
